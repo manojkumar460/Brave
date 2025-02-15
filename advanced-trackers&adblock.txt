@@ -158,15 +158,6 @@
 ||*.google.com/adwords/*^  
 ||*.google.com/doubleclick/*^  
 ||*.googlevideo.com/log_event^
-! Hide Sponsored Google Search Suggestions
-google.*##div[id^="tads"]
-google.*##.tadsb
-google.*##.uEierd
-google.*##.xpdopen
-google.*##.kxhcC
-google.*##.mnr-c
-google.*##.CnP9N
-google.*##.zBAuLc
 ! Block Google Sponsored Search Results
 ||www.google.*##div[data-text-ad]
 ||www.google.*##div[data-ads]
