@@ -1,0 +1,160 @@
+! Advanced Trackers & AdBlock Global – Brave/uBlock Origin Format  
+
+! Google Ads & Trackers  
+||doubleclick.net^  
+||googlesyndication.com^  
+||googleadservices.com^  
+||tpc.googlesyndication.com^  
+||partner.googleadservices.com^  
+||adservice.google.*^  
+
+! YouTube Ads & Tracking  
+||youtubeads.googleapis.com^  
+||youtubei.googleapis.com/youtubei/v1/ads^  
+||youtube.com/api/stats/ads^  
+||youtube.com/pagead/conversion/^  
+||r*.sn-*.googlevideo.com^  
+||s.youtube.com^  
+
+! Facebook Ads & Trackers  
+||connect.facebook.net^  
+||ads.facebook.com^  
+||graph.facebook.com^  
+
+! Twitter Ads & Trackers  
+||ads-api.twitter.com^  
+||ads.twitter.com^  
+||syndication.twitter.com^  
+
+! TikTok Ads & Trackers  
+||business-api.tiktok.com^  
+||ads.tiktok.com^  
+||analytics.tiktok.com^  
+
+! Instagram Ads & Trackers  
+||graph.instagram.com^  
+||ads.instagram.com^  
+
+! Spotify Ads  
+||spclient.wg.spotify.com^  
+||audio2.spotify.com^  
+||heads-ec.spotify.com^  
+
+! Amazon Ads  
+||aax.amazon-adsystem.com^  
+||fls-na.amazon.com^  
+||amazon-adsystem.com^  
+
+! Microsoft Ads & Trackers  
+||c.msn.com^  
+||bat.bing.com^  
+||adnxs.com^  
+
+! LinkedIn Ads & Trackers  
+||ads.linkedin.com^  
+||tracking.linkedin.com^  
+
+! Other Global Trackers  
+||googletagmanager.com^  
+||googletagservices.com^  
+||snap.licdn.com^  
+||analytics.google.com^  
+||ssl.google-analytics.com^  
+||stats.g.doubleclick.net^  
+
+! General Ad Networks  
+||securepubads.g.doubleclick.net^  
+||ad-delivery.net^  
+||ad.gt^  
+||ad.mob^  
+||adsrvmedia.net^
+
+! Ultra-Advanced Google AdBlock & Tracker Block List  
+! Strict filtering for Brave, uBlock Origin, and other ad blockers  
+
+! Google Ad Delivery & Syndication  
+||doubleclick.net^  
+||googleads.g.doubleclick.net^  
+||googlesyndication.com^  
+||pagead2.googlesyndication.com^  
+||tpc.googlesyndication.com^  
+||securepubads.g.doubleclick.net^  
+||g.doubleclick.net^  
+||ad.doubleclick.net^  
+||adservice.google.*^  
+||partner.googleadservices.com^  
+||www.googleadservices.com^  
+
+! YouTube Ads & Tracking  
+||youtubeads.googleapis.com^  
+||youtubei.googleapis.com/youtubei/v1/ads^  
+||youtube.com/api/stats/ads^  
+||youtube.com/pagead/conversion/^  
+||r*.sn-*.googlevideo.com^  
+||redirector.googlevideo.com^  
+||s.youtube.com^  
+||www.youtube.com/api/stats/qoe^  
+
+! Google Analytics & Tracking  
+||analytics.google.com^  
+||www.google-analytics.com^  
+||ssl.google-analytics.com^  
+||stats.g.doubleclick.net^  
+||www.gstatic.com/analytics^  
+||www.google.com/ads/measurement^  
+
+! Google Tag Management & Pixels  
+||googletagmanager.com^  
+||googletagservices.com^  
+||tagmanager.google.com^  
+||www.google-analytics.com/plugins/ua/^  
+||www.googletagmanager.com/gtm.js$script,third-party  
+
+! Google Search Ads & Sponsored Results  
+||www.google.com/aclk^  
+||www.google.com/ads/^  
+||www.google.com/recaptcha/api.js^  
+||www.google.com/recaptcha/^  
+||www.google.com/search?q=ad^  
+||www.google.com/search?client=ad^  
+||www.google.com/gen_204^  
+
+! Google Fonts, Captchas, & Misc Tracking  
+||fonts.googleapis.com^  
+||fonts.gstatic.com^  
+||recaptcha.net^  
+||www.gstatic.com/recaptcha/^  
+||clients1.google.com^  
+||clients3.google.com^  
+
+! Google App Tracking & Firebase  
+||firebaseinstallations.googleapis.com^  
+||firebaselogging.googleapis.com^  
+||app-measurement.com^  
+||play.googleapis.com/log^  
+||www.googleapis.com/adsensehost/^  
+||www.googleapis.com/ads/^  
+||www.googleapis.com/tagmanager/^  
+
+! Google Maps & Location Tracking  
+||maps.google.com/maps/ads^  
+||maps.googleapis.com/maps/api/js^  
+||geo.google.com^  
+
+! Google Play Store Ads & Tracking  
+||play.google.com/log^  
+||play.googleapis.com/log^  
+||play.googleapis.com/ads^  
+||play.googleapis.com/measurement^  
+
+! Google News & Discover Ads  
+||news.google.com/news/ads^  
+||news.google.com/sponsored^  
+||www.google.com/amp/s/*ads*^  
+
+! Experimental Blocks  
+||*.google.com/adsense/*^  
+||*.google.com/dfp/*^  
+||*.google.com/adwords/*^  
+||*.google.com/doubleclick/*^  
+||*.googlevideo.com/log_event^
