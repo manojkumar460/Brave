@@ -169,3 +169,30 @@
 ||www.google.*##.zBAuLc
 ||www.google.*##.xpdopen
 ||www.google.*##.kxhcC
+! Title: Google Sponsored Search Blocklist
+! Description: Blocks Google search ads and sponsored suggestions.
+! Last updated: 2025-02-15
+
+! Block sponsored search results (Google Ads)
+||www.google.*##div[data-text-ad]
+||www.google.*##div[data-ads]
+||www.google.*##.uEierd
+||www.google.*##.CnP9N
+||www.google.*##.mnr-c
+||www.google.*##.ads-ad
+||www.google.*##.twp1cc
+||www.google.*##.zBAuLc
+||www.google.*##.xpdopen
+||www.google.*##.kxhcC
+
+! Block Google Shopping ads
+||www.google.*##.pla-unit
+||www.google.*##.sh-dlr__list-result
+||www.google.*##.mnr-c.pla-unit
+
+! Block promoted search suggestions
+||www.google.*##.sbct
+||www.google.*##.sbhl
+||www.google.*##.sbl1
+||www.google.*##.aajZCb
+||www.google.*##.kp-wholepage
