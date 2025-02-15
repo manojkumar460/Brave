@@ -158,3 +158,23 @@
 ||*.google.com/adwords/*^  
 ||*.google.com/doubleclick/*^  
 ||*.googlevideo.com/log_event^
+! Hide Sponsored Google Search Suggestions
+google.*##div[id^="tads"]
+google.*##.tadsb
+google.*##.uEierd
+google.*##.xpdopen
+google.*##.kxhcC
+google.*##.mnr-c
+google.*##.CnP9N
+google.*##.zBAuLc
+! Block Google Sponsored Search Results
+||www.google.*##div[data-text-ad]
+||www.google.*##div[data-ads]
+||www.google.*##.uEierd
+||www.google.*##.CnP9N
+||www.google.*##.mnr-c
+||www.google.*##.ads-ad
+||www.google.*##.twp1cc
+||www.google.*##.zBAuLc
+||www.google.*##.xpdopen
+||www.google.*##.kxhcC
