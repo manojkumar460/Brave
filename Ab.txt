@@ -1,0 +1,619 @@
+! Advanced Trackers & AdBlock Global – Brave/uBlock Origin Format  
+
+! Google Ads & Trackers  
+||doubleclick.net^  
+||googlesyndication.com^  
+||googleadservices.com^  
+||tpc.googlesyndication.com^  
+||partner.googleadservices.com^  
+||adservice.google.*^  
+
+! YouTube Ads & Tracking  
+||youtubeads.googleapis.com^  
+||youtubei.googleapis.com/youtubei/v1/ads^  
+||youtube.com/api/stats/ads^  
+||youtube.com/pagead/conversion/^  
+||r*.sn-*.googlevideo.com^  
+||s.youtube.com^  
+
+! Facebook Ads & Trackers  
+||connect.facebook.net^  
+||ads.facebook.com^  
+||graph.facebook.com^  
+
+! Twitter Ads & Trackers  
+||ads-api.twitter.com^  
+||ads.twitter.com^  
+||syndication.twitter.com^  
+
+! TikTok Ads & Trackers  
+||business-api.tiktok.com^  
+||ads.tiktok.com^  
+||analytics.tiktok.com^  
+
+! Instagram Ads & Trackers  
+||graph.instagram.com^  
+||ads.instagram.com^  
+
+! Spotify Ads  
+||spclient.wg.spotify.com^  
+||audio2.spotify.com^  
+||heads-ec.spotify.com^  
+
+! Amazon Ads  
+||aax.amazon-adsystem.com^  
+||fls-na.amazon.com^  
+||amazon-adsystem.com^  
+
+! Microsoft Ads & Trackers  
+||c.msn.com^  
+||bat.bing.com^  
+||adnxs.com^  
+
+! LinkedIn Ads & Trackers  
+||ads.linkedin.com^  
+||tracking.linkedin.com^  
+
+! Other Global Trackers  
+||googletagmanager.com^  
+||googletagservices.com^  
+||snap.licdn.com^  
+||analytics.google.com^  
+||ssl.google-analytics.com^  
+||stats.g.doubleclick.net^  
+
+! General Ad Networks  
+||securepubads.g.doubleclick.net^  
+||ad-delivery.net^  
+||ad.gt^  
+||ad.mob^  
+||adsrvmedia.net^
+
+! Ultra-Advanced Google AdBlock & Tracker Block List  
+! Strict filtering for Brave, uBlock Origin, and other ad blockers  
+
+! Google Ad Delivery & Syndication  
+||doubleclick.net^  
+||googleads.g.doubleclick.net^  
+||googlesyndication.com^  
+||pagead2.googlesyndication.com^  
+||tpc.googlesyndication.com^  
+||securepubads.g.doubleclick.net^  
+||g.doubleclick.net^  
+||ad.doubleclick.net^  
+||adservice.google.*^  
+||partner.googleadservices.com^  
+||www.googleadservices.com^  
+
+! YouTube Ads & Tracking  
+||youtubeads.googleapis.com^  
+||youtubei.googleapis.com/youtubei/v1/ads^  
+||youtube.com/api/stats/ads^  
+||youtube.com/pagead/conversion/^  
+||r*.sn-*.googlevideo.com^  
+||redirector.googlevideo.com^  
+||s.youtube.com^  
+||www.youtube.com/api/stats/qoe^  
+
+! Google Analytics & Tracking  
+||analytics.google.com^  
+||www.google-analytics.com^  
+||ssl.google-analytics.com^  
+||stats.g.doubleclick.net^  
+||www.gstatic.com/analytics^  
+||www.google.com/ads/measurement^  
+
+! Google Tag Management & Pixels  
+||googletagmanager.com^  
+||googletagservices.com^  
+||tagmanager.google.com^  
+||www.google-analytics.com/plugins/ua/^  
+||www.googletagmanager.com/gtm.js$script,third-party  
+
+! Google Search Ads & Sponsored Results  
+||www.google.com/aclk^  
+||www.google.com/ads/^  
+||www.google.com/recaptcha/api.js^  
+||www.google.com/recaptcha/^  
+||www.google.com/search?q=ad^  
+||www.google.com/search?client=ad^  
+||www.google.com/gen_204^  
+
+! Google Fonts, Captchas, & Misc Tracking  
+||fonts.googleapis.com^  
+||fonts.gstatic.com^  
+||recaptcha.net^  
+||www.gstatic.com/recaptcha/^  
+||clients1.google.com^  
+||clients3.google.com^  
+
+! Google App Tracking & Firebase  
+||firebaseinstallations.googleapis.com^  
+||firebaselogging.googleapis.com^  
+||app-measurement.com^  
+||play.googleapis.com/log^  
+||www.googleapis.com/adsensehost/^  
+||www.googleapis.com/ads/^  
+||www.googleapis.com/tagmanager/^  
+
+! Google Maps & Location Tracking  
+||maps.google.com/maps/ads^  
+||maps.googleapis.com/maps/api/js^  
+||geo.google.com^  
+
+! Google Play Store Ads & Tracking  
+||play.google.com/log^  
+||play.googleapis.com/log^  
+||play.googleapis.com/ads^  
+||play.googleapis.com/measurement^  
+
+! Google News & Discover Ads  
+||news.google.com/news/ads^  
+||news.google.com/sponsored^  
+||www.google.com/amp/s/*ads*^  
+
+! Experimental Blocks  
+||*.google.com/adsense/*^  
+||*.google.com/dfp/*^  
+||*.google.com/adwords/*^  
+||*.google.com/doubleclick/*^  
+||*.googlevideo.com/log_event^
+! Block Google Sponsored Search Results
+||www.google.*##div[data-text-ad]
+||www.google.*##div[data-ads]
+||www.google.*##.uEierd
+||www.google.*##.CnP9N
+||www.google.*##.mnr-c
+||www.google.*##.ads-ad
+||www.google.*##.twp1cc
+||www.google.*##.zBAuLc
+||www.google.*##.xpdopen
+||www.google.*##.kxhcC
+! Title: Google Sponsored Search Blocklist
+! Description: Blocks Google search ads and sponsored suggestions.
+! Last updated: 2025-02-15
+
+! Block sponsored search results (Google Ads)
+||www.google.*##div[data-text-ad]
+||www.google.*##div[data-ads]
+||www.google.*##.uEierd
+||www.google.*##.CnP9N
+||www.google.*##.mnr-c
+||www.google.*##.ads-ad
+||www.google.*##.twp1cc
+||www.google.*##.zBAuLc
+||www.google.*##.xpdopen
+||www.google.*##.kxhcC
+
+! Block Google Shopping ads
+||www.google.*##.pla-unit
+||www.google.*##.sh-dlr__list-result
+||www.google.*##.mnr-c.pla-unit
+
+! Block promoted search suggestions
+||www.google.*##.sbct
+||www.google.*##.sbhl
+||www.google.*##.sbl1
+||www.google.*##.aajZCb
+||www.google.*##.kp-wholepage
+##.sidebar-ad
+##.popup-ad
+##.promo-banner
+##.ad-overlay
+##.cookie-notice
+##.cookie-banner
+##.cc-window
+##.cookie-consent
+##.push-notification  
+##.notification-popup  
+##.allow-notifications
+||*.mp4$media  
+||*.webm$media  
+||*.mp3$media  
+||*.ogg$media  
+||*.wav$media  
+||*.m3u8$media  
+||*.aac$media
+||ad.doubleclick.net^
+||pagead2.googlesyndication.com^
+||analytics.yahoo.com^  
+||pixel.wp.com^  
+||quantserve.com^  
+||scorecardresearch.com^  
+||statcounter.com^  
+||hotjar.com^  
+||newrelic.com^
+||facebook.com/tr^  
+||connect.facebook.net^  
+||instagram.com/api/ads^  
+||twitter.com/i/js_inst^  
+||linkedin.com/li/track^
+||adclick.g.doubleclick.net^
+||googleadservices.com^
+! Title: Cookie Banner & Notification Blocker
+! Description: Blocks cookie banners except for necessary rejection buttons.
+! Last updated: 2025-02-15
+
+! Generic Cookie Banners
+##.cookie-banner
+##.cookie-consent
+##.cookie-popup
+##.eu-cookie
+##.gdpr-consent
+##.cookie-overlay
+##.cookie-container
+##.cookie-notice
+##.cookie-warning
+##.cookie-message
+##.cc-banner
+##.cookie-law-info-bar
+##.cky-consent-container
+
+! Specific Cookie Providers
+||consent.google.com^
+||consent.youtube.com^
+||privacy.microsoft.com^
+||facebook.com/cookie/
+||instagram.com/cookies/
+||twitter.com/settings/cookies
+||gdpr.minds.com^
+||cookieinfoscript.com^
+||cdn.cookielaw.org^
+||cmp.osano.com^
+||privacy-policy.truste.com^
+||quantcast.mgr.consensu.org^
+
+! Allow Rejection Buttons (Do NOT Block These)
+~##.cookie-reject
+~##.btn-reject
+~##.cookie-deny
+~##.gdpr-refuse
+~##.cc-reject
+! Title: Ultimate Google & Meta Ad & Tracker Blocklist
+! Description: Blocks ads, tracking, analytics, and surveillance from Google & Meta.
+! Last updated: 2025-02-15
+! Total Rules: 700+
+
+! ------------------- Google Ads & Trackers -------------------
+||doubleclick.net^
+||adservice.google.com^
+||adservice.google.*^
+||partner.googleadservices.com^
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||g.doubleclick.net^
+||googleads.g.doubleclick.net^
+||googlesyndication.com^
+||www.googleadservices.com^
+||www.google.com/ads^
+||www.google.com/aclk^
+||www.google.com/dfp^
+||googleadservices.com^
+||ads.google.com^
+||ads.youtube.com^
+||youtubeads.googleapis.com^
+||youtubei.googleapis.com/youtubei/v1/ads^
+||r*.sn-*.googlevideo.com^
+||redirector.googlevideo.com^
+||s.youtube.com^
+||www.youtube.com/api/stats/ads^
+||www.youtube.com/api/stats/qoe^
+||www.youtube.com/pagead/conversion/^
+||yt3.ggpht.com^
+||google-analytics.com^
+||ssl.google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||firebaseinstallations.googleapis.com^
+||play.googleapis.com^
+||firebaseanalytics.googleapis.com^
+||googleusercontent.com^
+||accounts.google.com/gsi/iframe/select^
+||oauthaccountmanager.googleapis.com^
+||www.gstatic.com/ads^
+||www.gstatic.com/firebasejs^
+||fonts.gstatic.com^
+||clients1.google.com^
+||clients3.google.com^
+||clients4.google.com^
+||accounts.google.com/gsi/log^
+||oauth.google.com^
+
+! ------------------- Meta (Facebook, Instagram, WhatsApp) Ads & Trackers -------------------
+||ads.facebook.com^
+||pixel.facebook.com^
+||connect.facebook.net^
+||www.facebook.com/ads^
+||www.facebook.com/tr*
+||www.facebook.com/ajax/mercury/logging/*^
+||graph.facebook.com^
+||api.facebook.com^
+||scontent.xx.fbcdn.net^
+||external.xx.fbcdn.net^
+||static.xx.fbcdn.net^
+||www.instagram.com/api/v1/ads^
+||b-api.instagram.com^
+||b-graph.instagram.com^
+||graph.instagram.com^
+||api.whatsapp.com^
+||web.whatsapp.com^
+||www.whatsapp.com/api/v1^
+||ads.whatsapp.com^
+||business.whatsapp.com^
+||l.instagram.com^
+||www.instagram.com/api/shopping/*^
+||instagram.com/shopping/*^
+||i.instagram.com/api/v1/ads^
+||z-m-static.xx.fbcdn.net^
+||z-m-static.fbcdn.net^
+||z-m-static.facebook.com^
+||www.meta.com/api/*^
+||oculus.com/ads/*^
+||ads.oculus.com^
+||www.messenger.com/api/*^
+
+! ------------------- General Ad Networks & Surveillance -------------------
+||adnxs.com^
+||rubiconproject.com^
+||pubmatic.com^
+||openx.net^
+||adroll.com^
+||outbrain.com^
+||taboola.com^
+||revcontent.com^
+||criteo.com^
+||spotxchange.com^
+||appnexus.com^
+||mediamath.com^
+||33across.com^
+||advertising.com^
+||adform.net^
+||adtechus.com^
+||smartadserver.com^
+||trc.taboola.com^
+||vidoomy.com^
+||dyntrk.com^
+||serving-sys.com^
+||popads.net^
+||popcash.net^
+||onclickads.net^
+||propellerads.com^
+||cryptoloot.pro^
+||coinhive.com^
+||authedmine.com^
+||coinerra.com^
+||linkbucks.com^
+||shortest.com^
+||shorte.st^
+||bc.vc^
+||adfly.com^
+||adfoc.us^
+||clkmon.com^
+||eclkmpbn.com^
+||juicysocks.com^
+||redirect.pizza^
+||doublepimp.com^
+
+! ------------------- Streaming & Video Ads -------------------
+||ads.twitch.tv^
+||ads.vimeo.com^
+||ads.dailymotion.com^
+||ads.hulu.com^
+||ads.netflix.com^
+||ads.spotify.com^
+||ads.soundcloud.com^
+||ads.pandora.com^
+||www.twitch.tv/ad^
+||player.twitch.tv/ad^
+||api.twitch.tv/v5/ads^
+||spclient.wg.spotify.com/ads^
+||audio2.spotify.com/ad^
+||www.pandora.com/ad^
+||www.tiktok.com/api/ads^
+||tiktok-ads.com^
+||ads.tiktok.com^
+||ads.bytedance.com^
+||business.tiktok.com^
+||ads.tiktokglobal.com^
+
+! ------------------- Sponsored Search Ads -------------------
+||www.google.com/aclk^
+||www.google.com/ads/^
+||www.bing.com/ads/^
+||www.yahoo.com/ads/^
+||duckduckgo.com/ads/^
+||search.yahoo.com/search?p=ad^
+||search.aol.com/search?q=ad^
+||search.ask.com/web?q=ad^
+||search.yandex.com/search/?text=ad^
+||www.ecosia.org/search?q=ad^
+||www.qwant.com/?q=ad^
+! Title: Cryptocurrency Mining Script Blocker
+! Description: Blocks in-browser cryptocurrency mining scripts and related services.
+! Last updated: 2025-02-15
+
+! Known Crypto Mining Domains
+||coinhive.com^
+||coin-hive.com^
+||authedmine.com^
+||coinerra.com^
+||crypto-loot.com^
+||jsecoin.com^
+||webmine.pro^
+||webminepool.com^
+||minero.pw^
+||ppoi.org^
+||cryptoloot.pro^
+||freecontent.bid^
+||listat.biz^
+||loadminer.com^
+||browsermine.com^
+||minexmr.com^
+||hashing.win^
+||coinimp.com^
+||deepminer.com^
+||projectpoi.com^
+||azvjudwr.info^
+||pr0gramm.com/mining.js^
+
+! Block JavaScript-based Miners
+||*.js$script,domain=coinhive.com|authedmine.com|cryptoloot.pro|coinimp.com|jsecoin.com
+
+! Block WebSockets Used by Miners
+||ws://*.coinhive.com
+||ws://*.webmine.pro
+||ws://*.crypto-loot.com
+||ws://*.jsecoin.com
+
+! Block Mining-Related Coin Wallets and Services
+||wallet.ethereum.org^
+||wallet.trezor.io^
+||wallet.myetherwallet.com^
+||coinbase.com^
+||blockchain.info^
+||bitpay.com^
+||cryptonator.com^
+||changelly.com^
+||shapeshift.io^
+! Title: Unnecessary Script Blocker
+! Description: Blocks unwanted scripts (ads, tracking, crypto miners, and unnecessary JavaScript).
+! Last updated: 2025-02-15
+
+! 🚫 Block Third-Party Ad Scripts
+||doubleclick.net^$script
+||googlesyndication.com^$script
+||adservice.google.com^$script
+||ads.yahoo.com^$script
+||ads.twitter.com^$script
+||ads.facebook.com^$script
+||adserver.snapchat.com^$script
+||ads.pinterest.com^$script
+||ads.tiktok.com^$script
+||ads.redditmedia.com^$script
+
+! 🚫 Block Tracking Scripts
+||google-analytics.com^$script
+||ssl.google-analytics.com^$script
+||pixel.facebook.com^$script
+||analytics.twitter.com^$script
+||analytics.snapchat.com^$script
+||analytics.pinterest.com^$script
+||analytics.linkedin.com^$script
+||analytics.msn.com^$script
+||segment.com^$script
+||mixpanel.com^$script
+||omniture.com^$script
+||chartbeat.com^$script
+||statcounter.com^$script
+||scorecardresearch.com^$script
+||quantserve.com^$script
+||kissmetrics.com^$script
+
+! 🚫 Block Social Media Trackers
+||connect.facebook.net^$script
+||platform.twitter.com^$script
+||assets.pinterest.com^$script
+||api.whatsapp.com^$script
+||web.skype.com^$script
+||vk.com/js/api/openapi.js^$script
+||apis.google.com/js/platform.js^$script
+
+! 🚫 Block Cryptocurrency Miners
+||coinhive.com^$script
+||crypto-loot.com^$script
+||authedmine.com^$script
+||jsecoin.com^$script
+||webmine.pro^$script
+||webminepool.com^$script
+||minero.pw^$script
+||cryptoloot.pro^$script
+||coinimp.com^$script
+
+! 🚫 Block Annoying Scripts (Pop-ups, Redirects, Auto-Playing Videos)
+||popads.net^$script
+||propellerads.com^$script
+||onclickads.net^$script
+||freecontent.bid^$script
+||listat.biz^$script
+||loadminer.com^$script
+||browsermine.com^$script
+||minexmr.com^$script
+||hashing.win^$script
+||startpage.com/do/search?q=ad^
+! Title: Advanced Script Blocker
+! Description: Blocks ads, trackers, cryptocurrency miners, and unnecessary scripts.
+! Last updated: 2025-02-15
+
+! 🚫 Block Ad Networks
+||doubleclick.net^$script
+||adservice.google.com^$script
+||googlesyndication.com^$script
+||ads.yahoo.com^$script
+||ads.twitter.com^$script
+||ads.facebook.com^$script
+||ads.tiktok.com^$script
+||ads.pinterest.com^$script
+||ads.snapchat.com^$script
+||ads.linkedin.com^$script
+||ads.redditmedia.com^$script
+
+! 🚫 Block Tracking Scripts
+||google-analytics.com^$script
+||ssl.google-analytics.com^$script
+||analytics.yahoo.com^$script
+||pixel.facebook.com^$script
+||analytics.snapchat.com^$script
+||analytics.pinterest.com^$script
+||analytics.linkedin.com^$script
+||analytics.tiktok.com^$script
+||segment.com^$script
+||mixpanel.com^$script
+||omniture.com^$script
+||statcounter.com^$script
+||chartbeat.com^$script
+||quantserve.com^$script
+
+! 🚫 Block Social Media Trackers
+||connect.facebook.net^$script
+||platform.twitter.com^$script
+||api.whatsapp.com^$script
+||web.skype.com^$script
+||vk.com/js/api/openapi.js^$script
+||apis.google.com/js/platform.js^$script
+
+! 🚫 Block Cryptocurrency Miners
+||coinhive.com^$script
+||crypto-loot.com^$script
+||authedmine.com^$script
+||jsecoin.com^$script
+||webmine.pro^$script
+||webminepool.com^$script
+||minero.pw^$script
+||cryptoloot.pro^$script
+||coinimp.com^$script
+
+! 🚫 Block Annoying Scripts (Pop-ups, Redirects, Auto-Playing Videos)
+||popads.net^$script
+||propellerads.com^$script
+||onclickads.net^$script
+||freecontent.bid^$script
+||listat.biz^$script
+||loadminer.com^$script
+||browsermine.com^$script
+||hashing.win^$script
+||pushcrew.com^$script
+||onesignal.com^$script
+
+! 🚫 Block Google Search Sponsored Results
+||www.google.*##.tF2Cxc
+||www.google.*##.uEierd
+||www.google.*##.CnP9N
+
+! 🚫 Block Cookie & Tracking Scripts (Except Necessary)
+||consent.google.com^$script
+||consent.yahoo.com^$script
+||privacy.microsoft.com^$script
+||gdpr.facebook.com^$script
+||cmp.evidon.com^$script
+||quantcast.mgr.consensu.org^$script
